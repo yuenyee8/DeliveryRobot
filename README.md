@@ -11,8 +11,8 @@ CH 是让机器人使用3x4键盘（第二功能）来控制机器人。
 CH- 是让机器人回归遥控器功能来控制机器人。
 1-9 号是和第二功能一样，3x4键盘来控制机器人。
 10-19 号：10号是转左， 11号是前进， 12号是转右。
-
-
+ 
+ 
 This is what it looks like before the robot starts. The robot has 3 lights (red, yellow and green), a 2004 L2C LCD and a push botton. When the robot is powered on, the red light will be on, and the second function (3x4 keypad) and third function (remote control) can be used to control the robot. The LCD will also display Delivery Robot: Switch once for line follow, twice for control mode . Then the user now presses the push button once, the robot will be the first function (moving along the line) and the yellow light will light up. Then when the user presses the push button again, the green light will light up and the robot will be controlled by the second function (3x4 keypad) and the third function (remote control). When the user presses it again, the robot will return to the first function (moving along the line). Finally, if the robot encounters a problem, the buzzer and red light will flash.
 
 The first function is to avoid obstacles by circling the line. The robot will use the (maker line) to move along the line, but when the sensor detects an object in front, the robot will avoid it. This robot will use 2 sensors (ultrasonic sensor & limit switch). When the left ultrasonic sensor detects, the robot will avoid to the right (back up and walk straight to the right field, then return to the left to find the line and return along the line); when the right ultrasonic sensor detects, the robot will avoid to the left On (back up and go straight left field, go back right to search the line and back along the line). When the limit switch on the left is pressed, the robot will avoid to the right (back up and walk straight to the right field, then return to the left to find the line and return along the line); when the limit switch on the right is pressed, the robot will Avoid to the left (back up and go straight left field, return to the right to search the line and follow the line back). The buzzer will only make sounds when the robot is avoiding obstacles.
