@@ -571,26 +571,6 @@ void LineFollower() {
     }
     else {
     }
-    // // Perform line following based on the current line follow mode
-    // switch (lineFollowMode) {
-    //   case 0:  // Left
-    //     // Implement logic for left line following
-    //     break;
-
-    //   case 1:  // Straight
-    //     // Implement logic for straight line following
-    //     break;
-
-    //   case 2:  // Right
-    //     // Implement logic for right line following
-    //     break;
-
-    //   default:
-    //     Serial.println("WARNING: undefined command:");
-    //     lcd.setCursor(0, 3);
-    //     lcd.print("WARNING: undefined command:");
-    //     break;
-    // }
   }
 }
 
